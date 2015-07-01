@@ -1,0 +1,532 @@
+/* 
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+    Created on : Jun 16, 2015, 9:01:05 AM
+    Author     : aukn
+*/
+
+h1, h2, h3, h4, h5, h6{
+     font-family: "Gisha";
+     font-weight: normal;
+}
+body{
+    margin: 0px;
+    background: #f2f0ec;
+    color: #282827;
+}
+
+.Mwrapper{
+    display: none;
+}
+
+p{
+    font-size: 12pt;
+}
+
+section {
+    float: left;
+    width: 20em;
+    text-align: left;
+}
+
+aside {
+  
+    float: left;
+    width: 40em;
+}
+.wrapper{
+    background: #282827;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    padding: auto; 
+    text-align: center;
+}
+
+.Mwrapper{
+    background: #282827;
+    width: 100%;
+    height: 50px;
+    padding: auto; 
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.wrapperFoot{
+    background: #282827;
+    width: 100%;
+    margin: auto;
+    padding: auto; 
+    text-align: center;
+    padding: auto;
+    overflow: auto;
+}
+
+.NavBar{   
+    width: 100%;
+}
+
+.NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.NavBar li {
+    display: inline-block;
+    float: left;
+    margin-right: 0px;
+    float: top;
+    margin:0px;
+}
+
+#icon{
+    width: 2em;
+    display: none;
+}
+
+    .NavBar li a {
+        display:block;
+        height: 40px;
+        text-align: center;
+        line-height: 53px;
+        font-family: 'Open Sans', sans-serif;
+        color: #dcd8cf;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right:15px;
+        background: #282827;
+        text-decoration: none;
+        min-width: 80px;
+    }
+
+    .NavBar li:hover a {
+        background-color: #011EA4;
+        color:#dcd8cf;
+        padding-bottom:10px;
+        margin-bottom:0px;              
+        box-shadow: inset 0px 0px 1px #DCD8CF;
+        -webkit-transition: background 0.2s linear;
+        -moz-transition: background 0.2s linear;
+        -ms-transition: background 0.2s linear;
+        -o-transition: background 0.2s linear;
+        transition: background 0.2s linear;
+    }
+
+        .NavBar li:hover ul a {
+            background: #011EA4;
+            color: #dcd8cf;
+            height: 40px;
+            line-height: 53px;
+        }
+
+        .NavBar li:hover ul a:hover {
+            background-color: #282827;
+            color:#dcd8cf;
+            padding-bottom:10px;
+            margin-bottom:0px;              
+            box-shadow: inset 0 0 5px #000000;            
+        }
+
+        .NavBar li ul {
+            display: none;
+        }
+
+        .NavBar li ul li {
+            display: block;
+            float: none;
+        }
+
+        .NavBar li ul li a {
+            padding: 0 20px;
+        }
+
+        .NavBar ul li a:hover + .hidden, .hidden:hover {
+            display: block;
+        }
+
+        .NavBar{   
+    width: 71%;
+    margin: auto;
+    font-size: 1em;
+}
+
+.MNavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.MNavBar  li {
+    display: inline-block;
+    float: left;
+    margin-right: 0px;
+    float: top;
+    margin:0px;
+}
+
+#icon{
+    width: 2em;
+    display: none;
+}
+
+    .MNavBar  li a {
+        display:block;
+        height: 40px;
+        text-align: center;
+        line-height: 53px;
+        font-family: 'Open Sans', sans-serif;
+        color: #dcd8cf;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right:15px;
+        background: #282827;
+        text-decoration: none;
+        min-width: 80px;
+    }
+
+    .MNavBar  li:hover a {
+        background-color: #011EA4;
+        color:#dcd8cf;
+        padding-bottom:10px;
+        margin-bottom:0px;              
+        box-shadow: inset 0px 0px 1px #000000;   
+    }
+
+        .MNavBar  li:hover ul a {
+            background: #011EA4;
+            color: #dcd8cf;
+            height: 40px;
+            line-height: 53px;
+        }
+
+        .MNavBar  li:hover ul a:hover {
+            background-color: #282827;
+            color:#dcd8cf;
+            padding-bottom:10px;
+            margin-bottom:0px;              
+            box-shadow: inset 0 0 5px #dcd8cf;            
+        }
+
+        .MNavBar  li ul {
+            display: none;
+        }
+
+        .MNavBar  li ul li {
+            display: block;
+            float: none;
+        }
+
+        .MNavBar  li ul li a {
+            padding: 0 20px;
+        }
+
+        .MNavBar  ul li a:hover + .hidden, .hidden:hover {
+            display: block;
+        }
+
+.show-menu {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #f2f0ec;
+    background: #282827;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+    margin-bottom: 0px; 
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+@media screen and (max-width : 1420px){
+    .NavBar{   
+        width: 75%;
+        margin: auto;
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width : 1240px){
+    .NavBar{   
+        width: 96%;
+        margin: auto;
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width : 1100px){
+    .NavBar{   
+        width: 100%;
+        margin: 0;
+        font-size: .7em;
+    }
+        .Footer{
+        margin: auto; 
+        width: 75%; 
+    }
+    
+    .Quotes{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width : 970px){
+    .NavBar{   
+        width: 100%;
+        margin: auto;
+    }
+        .Footer{
+        margin: auto;  
+        width: 75%;
+    }
+}
+
+@media screen and (max-width : 760px){
+    .NavBar{
+        display: none;
+    }
+    .wrapper{
+        display: none;
+    }
+    .Mwrapper{
+        display: block;
+    }
+    #icon{
+        display: block;
+        width: 3.1em;
+        float: right;
+    }
+
+    .MNavBar  ul {
+        position: static;
+        text-align: center;
+        display: none;
+        left: 0px;
+    }
+    .MNavBar  ul li a{
+        position: static;        
+    }
+
+    .MNavBar  li {
+        margin-bottom: 0px;
+        position: static;
+        width: 100%;
+    }
+
+    .MNavBar  ul li, li a {
+        width: 96%;      
+        position: static;
+    }
+
+    .show-menu {
+        display:block;
+    }
+    
+    section, aside {
+      float: none;
+      width: auto;
+    }
+    
+    .MNavBar  li:hover ul a {
+        background: #f2f0ec;
+        color: #000;
+        height: 40px;
+        line-height: 53px;
+        position: static;
+    } 
+    .Footer{
+        margin: auto;
+        width: 75%;
+    }
+    .wrapper{
+        text-align: center;
+    }
+    
+    section {
+    float: left;
+    width: 24em;
+}
+
+    aside {
+
+        float: left;
+        width: 24em;
+    }
+     
+    .Quotes{
+        margin-top: 170px;
+    }
+    .Quotes h1{
+        font-size: 1em;
+    }
+    
+}
+
+@media screen and (max-width : 400px){
+        section {
+    float: left;
+    width: 17em;
+}
+
+    aside {
+
+        float: left;
+        width: 18em;
+    }
+}
+
+.BodyContainer{
+    box-shadow: 1px 1px 10px;
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 0px;
+    background-color: #fff;
+    border: 0px solid;
+    position: auto;
+    overflow: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.PropertyForm{   
+    border: 1px solid #000000;
+    padding: 8px;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #dcd8cf;
+}
+
+section, aside{
+    margin: 15px;
+}
+
+.Footer{   
+    width: 54%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Footer ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+
+.Footer li {
+    display: inline-block;
+    float: left;
+    margin-right: 0px;
+    float: top;
+    margin:0px;
+}
+
+    .Footer li a {
+        display:block;
+        height: 40px;
+        text-align: center;
+        line-height: 53px;
+        font-family: 'Open Sans', sans-serif;
+        color: #dcd8cf;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right:15px;
+        background: #282827;
+        text-decoration: none;
+        width: 90px;
+        margin: 5px;
+    }
+
+    .Footer li:hover a {
+        background-color: #007196;
+        color: #dcd8cf;
+        padding-bottom: 10px;
+        margin-bottom: 0px;              
+        box-shadow: inset 0px 0px 1px #000000;
+        -webkit-transition: background 0.3s linear;
+        -moz-transition: background 0.3s linear;
+        -ms-transition: background 0.3s linear;
+        -o-transition: background 0.3s linear;
+        transition: background 0.3s linear;
+        border: 1px #dcd8cf solid;
+        border-radius: 3px;
+        box-shadow: 0 0 10px #fff;
+        
+    }
+
+        .Footer li:hover ul a {
+            background: #011ea4;
+            color: #dcd8cf;
+            height: 40px;
+            line-height: 53px;
+        }
+
+        .Footer li:hover ul a:hover {
+            background-color: #011ea4;
+            color: #dcd8cf;
+            padding-bottom: 10px;
+            margin-bottom: 0px;              
+            box-shadow: inset 0 0 5px #000000
+        }
+
+        .Footer li ul {
+            display: none;
+        }
+
+        .Footer li ul li {
+            display: block;
+            float: none;
+        }
+
+        .Footer li ul li a {
+            padding: 0 20px;
+        }
+
+        .Footer ul li a:hover + .hidden, .hidden:hover {
+            display: block;
+        }
+        
+         a {
+            color: #007196;
+        }
+        
+         a:hover{
+            color: #666666;
+        }
+.testthingy{
+    width: 10em;
+    font-size: 1em;
+}
+
+.Quotes{
+    margin-top: 10px;
+}
+
+.Quotes h1{
+    font-family: 'Damion', cursive;
+    color: #f2f0ec;
+}
+
+hr{
+    margin-left: 10em;
+    margin-right: 10em;
+    background-color: #000;
+    height: 1px;
+    border: 0; 
+    border-top: 2px solid #dcd8cf;
+}
