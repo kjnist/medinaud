@@ -558,10 +558,10 @@ input[type=checkbox]:checked ~ #menu{
         width: 90%;
     }
     .NavBar{
-        display: none;
+       
     }
     .wrapper{
-        display: none;
+        
     }
     .Mwrapper{
         display: block;
@@ -649,6 +649,12 @@ input[type=checkbox]:checked ~ #menu{
     .NewsBox{
         width: 8em;
         height: 15em;
+    }
+    #menu {
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       width: 100%;
     }
 }
 

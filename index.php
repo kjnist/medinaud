@@ -301,11 +301,9 @@
                         Quick Links
                     </h3> 
                     <p>
-                        <a href="IntheNews.html">Auditor's Office in the News</a>
+                        <a href="IntheNews.html"><img src="Images/Untitled-1.svg" /></a>
                         <br>
-                        <br><a href="#">Memorial Day Essay Contest Winners</a>
-                        <br>
-                        <br><a href="#">Memorial Day Essay Contest Ceremony</a>
+                        <br><a href="#"><img src="Images/MemorialButton.svg" /></a>
                     </p>
                 </div>
                 <div class="BoxRight" style="padding:5px;text-align: center">

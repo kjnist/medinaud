@@ -294,10 +294,10 @@ input[type=checkbox]:checked ~ #menu{
 
 @media screen and (max-width : 760px){
     .NavBar{
-        display: none;
+       
     }
     .wrapper{
-        display: none;
+        
     }
     .Mwrapper{
         display: block;
@@ -311,7 +311,7 @@ input[type=checkbox]:checked ~ #menu{
     .MNavBar  ul {
         position: static;
         text-align: center;
-        display: none;
+        
         left: 0px;
     }
     .MNavBar  ul li a{
