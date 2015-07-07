@@ -41,11 +41,22 @@ a:hover{
     from {transform:rotate(0deg);}
     to {transform:rotate(1440deg);}
 }
+.FrontPage{
+    width: 100%;
+    box-shadow: 1px 1px 10px;
+}
 
 /************************************************************/
 /**************************** Layout ************************/
 /************************************************************/  
 
+ td{
+width: 25%;
+}
+.PageHeader{
+    margin: 15px;
+    text-align: center;
+}
 section {
     float: left;
     width: 20em;
@@ -93,6 +104,9 @@ section, aside{
     background-color: #fff;
     border-radius: 10px;
 }
+    .BoxRight h3{
+        text-align: center;
+    }
 .BoxAttention{
     border: 1px solid #282827;
     padding: 8px;
@@ -178,7 +192,9 @@ section, aside{
 /************************************************************/
 /*************************** NavBar *************************/
 /************************************************************/
-
+.Additional{
+    width: 219px;
+}
 .NavBar{   
     width: 76%;
     margin: auto;
@@ -366,12 +382,15 @@ input[type=checkbox]:checked ~ #menu{
     border: 0; 
     border-top: 2px solid #dcd8cf;  
 }
-.social{
+.Social{
+    display: block;
     margin: 5px;
     width: 175px;
     position: inherit;
+}
+.Social_Buttton{
+    text-align: center;
     margin: 0px;
-   
 }
 .Footer{   
     width: 76%;
@@ -467,7 +486,7 @@ input[type=checkbox]:checked ~ #menu{
     }
     aside { 
         float: left;
-        width: 30em;
+        width: 37em;
     }
 }
 @media screen and (max-width : 1320px){
@@ -478,19 +497,22 @@ input[type=checkbox]:checked ~ #menu{
     }        
         aside { 
         float: left;
-        width: 37em;
+        width: 39em;
     }
 }
 
 @media screen and (max-width : 1240px){
     .NavBar{   
-        width: 96%;
+        width: 100%;
         margin: auto;
-        font-size: .7em;
+        font-size: .68em;
     }        
         aside { 
         float: left;
         width: 30em;
+    }
+        .Additional{
+        width: 150px;;
     }
 }
 
@@ -498,7 +520,7 @@ input[type=checkbox]:checked ~ #menu{
     .NavBar{   
         width: 100%;
         margin: 0;
-        font-size: .75em;
+        font-size: .74em;
     }
         .Footer{
         margin: auto; 
@@ -517,13 +539,20 @@ input[type=checkbox]:checked ~ #menu{
         .NavBar li a{
         min-width: 0px;
     }
+    .BodyContainer{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .Additional{
+        width: 150px;;
+    }
 }
 
 @media screen and (max-width : 970px){
     .NavBar{   
         width: 100%;
         margin: auto;
-        font-size: 0.7em;
+        font-size: 0.62em;
         padding: 0;
         margin: 0;
         min-width: 0px;
@@ -544,9 +573,24 @@ input[type=checkbox]:checked ~ #menu{
         padding-left: 7px;
         padding-right: 7px;
     }
+    .Additional{
+        width: 120px;
+        text-align: right;
+        height: 75px;
+    }
+    .right{
+        width: 10em;
+    }
 }
 
 @media screen and (max-width : 760px){
+    .BodyContainer{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Additional{
+        width: 96%;
+    }
     .banner2{
         display:block;
     }
@@ -558,10 +602,10 @@ input[type=checkbox]:checked ~ #menu{
         width: 90%;
     }
     .NavBar{
-       
+       display: none;
     }
     .wrapper{
-        
+        display: none;
     }
     .Mwrapper{
         display: block;
@@ -617,7 +661,6 @@ input[type=checkbox]:checked ~ #menu{
     }
 
     aside {
-
         float: left;
         width: 24em;
     }
@@ -647,25 +690,32 @@ input[type=checkbox]:checked ~ #menu{
         background-color: #282827; 
     }
     .NewsBox{
-        width: 8em;
+        width: 10em;
         height: 15em;
     }
-    #menu {
+/*    #menu {
         display: flex;
        flex-direction: column;
        justify-content: center;
        width: 100%;
+    }*/
+    .social{
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 60%;
     }
 }
 
 @media screen and (max-width : 400px){
     section {
         float: left;
-        width: 20em;
+        width: 18em;
     }
     aside {
         float: left;
-        width: 20em;
+        width: 18em;
     }  
     .wrapperFoot{
         height: 325px;
@@ -673,5 +723,20 @@ input[type=checkbox]:checked ~ #menu{
     .Footer li a {
         width: 80px;
         font-size: .8em;
+    }
+    .NewsBox{
+        width: 8em;
+        height: 15em;
+    }
+}
+@media print{
+    .wrapper{
+        display: none;
+    }
+    .wrapperFoot{
+        display: none;
+    }
+    header{
+        display: none;
     }
 }
