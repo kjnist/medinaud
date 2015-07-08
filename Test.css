@@ -43,7 +43,17 @@ a:hover{
 }
 .FrontPage{
     width: 100%;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 1px 1px 10px #000;
+}
+.AboutMike{
+    width: 13%;
+    float: left;
+    margin-right: 10px;
+}
+.tips{
+    text-align: center;
+    font-size: .8em;
+    color: #000;
 }
 
 /************************************************************/
@@ -51,7 +61,7 @@ a:hover{
 /************************************************************/  
 
  td{
-width: 25%;
+    width: 25%;
 }
 .PageHeader{
     margin: 15px;
@@ -89,6 +99,26 @@ aside {
     border-radius: 10px;
     font-family: 'Open Sans', sans-serif;
 }
+.Select{
+    width: 70%; 
+    float: right
+}
+.SearchPage{
+    padding: 12px;
+    padding-right: 15px;
+    max-width: 600px;
+    width: 95%;
+    margin: auto;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+    .SearchPage input{
+        width: 20em;
+        float: right;
+    }
+    .SearchPage select{
+        float: right;
+    }
 section, aside{
     margin: 15px;
 }
@@ -239,17 +269,18 @@ section, aside{
             padding-bottom:10px;
             margin-bottom:0px;              
             box-shadow: inset 0px 0px 1px #fff;
-            -webkit-transition: background 0.3s linear;
-            -moz-transition: background 0.3s linear;
-            -ms-transition: background 0.3s linear;
-            -o-transition: background 0.3s linear;
-            transition: background 0.3s linear;
+            -webkit-transition: background 0.2s linear;
+            -moz-transition: background 0.2s linear;
+            -ms-transition: background 0.2s linear;
+            -o-transition: background 0.2s linear;
+            transition: background 0.2s linear;
         }
             .NavBar li:hover ul a {
                 background: #007196;
                 color: #dcd8cf;
                 height: 40px;
-                line-height: 53px;
+                line-height: 40px;
+                height: 30px;
             }
             .NavBar li:hover ul a:hover {
                 background-color: #011EA4;
@@ -292,24 +323,24 @@ section, aside{
 }
     .MNavBar  li a {
         display:block;
-        height: 40px;
+        height: 30px;
         text-align: center;
-        line-height: 53px;
+        line-height: 40px;
         font-family: 'Open Sans', sans-serif;
         color: #dcd8cf;
+        box-shadow: inset 0px 0px .1em #666;
         padding-top: 0px;
         padding-bottom: 10px;
         padding-left: 15px;
         padding-right:15px;
         background: #282827;
         text-decoration: none;
-        min-width: 80px;
     }
     .MNavBar  li:hover a {
         background-color: #007196;
         color:#dcd8cf;
-        padding-bottom:10px;
-        margin-bottom:0px;              
+        padding-bottom: 10px;
+        margin-bottom: 0px;              
         box-shadow: inset 0px 0px 1px #fff;
         -webkit-transition: background 0.2s linear;
         -moz-transition: background 0.2s linear;
@@ -320,7 +351,7 @@ section, aside{
         .MNavBar  li:hover ul a {
             background: #011EA4;
             color: #dcd8cf;
-            height: 40px;
+            height: 20px;
             line-height: 53px;
         }
         .MNavBar  li:hover ul a:hover {
@@ -342,8 +373,7 @@ section, aside{
         }
         .MNavBar  ul li a:hover + .hidden, .hidden:hover {
             display: block;
-        }
-        
+        }       
 .show-menu {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
@@ -480,7 +510,7 @@ input[type=checkbox]:checked ~ #menu{
         
 @media screen and (max-width : 1420px){
     .NavBar{   
-        width: 75%;
+        width: 100%;
         margin: auto;
         font-size: .8em;
     }
@@ -500,7 +530,6 @@ input[type=checkbox]:checked ~ #menu{
         width: 39em;
     }
 }
-
 @media screen and (max-width : 1240px){
     .NavBar{   
         width: 100%;
@@ -515,7 +544,6 @@ input[type=checkbox]:checked ~ #menu{
         width: 150px;;
     }
 }
-
 @media screen and (max-width : 1100px){
     .NavBar{   
         width: 100%;
@@ -547,7 +575,6 @@ input[type=checkbox]:checked ~ #menu{
         width: 150px;;
     }
 }
-
 @media screen and (max-width : 970px){
     .NavBar{   
         width: 100%;
@@ -582,7 +609,6 @@ input[type=checkbox]:checked ~ #menu{
         width: 10em;
     }
 }
-
 @media screen and (max-width : 760px){
     .BodyContainer{
         margin-left: auto;
@@ -596,8 +622,7 @@ input[type=checkbox]:checked ~ #menu{
     }
     .banner3{
         display: none;
-    }
-    
+    }    
     .right{
         width: 90%;
     }
@@ -627,7 +652,7 @@ input[type=checkbox]:checked ~ #menu{
     }
 
     .MNavBar  ul li, li a {
-        width: 96%;      
+        width: 96.4%;      
         position: static;
     }
 
@@ -643,8 +668,8 @@ input[type=checkbox]:checked ~ #menu{
     .MNavBar  li:hover ul a {
         background: #f2f0ec;
         color: #000;
-        height: 40px;
-        line-height: 53px;
+        height: 30px;
+        line-height: 40px;
         position: static;
     } 
     .Footer{
@@ -691,9 +716,9 @@ input[type=checkbox]:checked ~ #menu{
     }
     .NewsBox{
         width: 10em;
-        height: 15em;
+        height: 16em;
     }
-/*    #menu {
+    /*#menu {
         display: flex;
        flex-direction: column;
        justify-content: center;
@@ -706,8 +731,13 @@ input[type=checkbox]:checked ~ #menu{
         display: block;
         width: 60%;
     }
+    .AboutMike{
+        width: 40%;
+    }
+    .Select{
+        width: 17em;
+    }
 }
-
 @media screen and (max-width : 400px){
     section {
         float: left;
@@ -728,15 +758,11 @@ input[type=checkbox]:checked ~ #menu{
         width: 8em;
         height: 15em;
     }
-}
-@media print{
-    .wrapper{
-        display: none;
-    }
-    .wrapperFoot{
-        display: none;
-    }
-    header{
-        display: none;
+    .MNavBar  ul li, li a {
+        width: 95.4%;      
+        position: static;
+    }    
+    .Footer{
+        font-size: .96em;
     }
 }

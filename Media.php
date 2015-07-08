@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
    
@@ -37,8 +38,8 @@
             <h1 class="PageHeader">Videos</h1>
             <hr />           
                 <div id="videoDiv" style="display: flex; flex-grow: 1; justify-content: space-around; flex-wrap: wrap">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/bNg1ANpAZuU" frameborder="0" allowfullscreen></iframe>
-                <iframe width="420" height="315" src="https://www.youtube.com/embed/RzuJGArD1jk" frameborder="0" allowfullscreen></iframe>
+                    <iframe style="margin: 5px;" width="560" height="315" src="https://www.youtube.com/embed/bNg1ANpAZuU" frameborder="0" allowfullscreen></iframe>
+                <iframe style="margin: 5px;" width="420" height="315" src="https://www.youtube.com/embed/RzuJGArD1jk" frameborder="0" allowfullscreen></iframe>
                 </div>
             <br />
             <h1 class="PageHeader">Pictures</h1>
