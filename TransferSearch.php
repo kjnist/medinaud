@@ -62,6 +62,7 @@
                 <p class="body">
                 Transfers Under: <input class="input" type="text" name="AmountMax">
                 </p>
+                <br/>
                 <p class="directions" style="text-align: right"><i>
                     Enter Last Name</i>
                 </p>
@@ -91,6 +92,7 @@
                     Parcel numbers are 11 digits<br>
                     For Example:&nbsp;&nbsp; 028-19B-20-036</i>
                 </p>
+                <br/>
                 </p>
                 <p class="body">
                 City: <input class="input" type="text" name="City">
