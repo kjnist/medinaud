@@ -13,9 +13,9 @@
        <?php include 'Header.php';?>              
         <div class="BodyContainer" >
             <?php include 'MHeader.php';?> 
-            <h1 class="PageHeader">Mike Kovack <br/><i style="font-style: italic">Medina County Auditor</i></h1>
+            <h1 class="PageHeader">Mike Kovack <br/><i>Medina County Auditor</i></h1>
             <hr>
-            <div style="padding: 10px;">
+            <div class="padding">
                 <img src="http://www.medinacountyauditor.org/Images/MikeKovack2012.jpg" class="AboutMike" alt=""/>
                 <p>
                     Mike Kovack first assumed the office of Medina County Auditor on January 

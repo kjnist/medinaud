@@ -15,88 +15,84 @@
             <?php include 'MHeader.php';?> 
             <h1 class="PageHeader">Save Ohio Strays</h1>
             <p  class="subtitle">All pets on this page, and more, are available at <a href="http://www.saveohiostrays.org/">Save Ohio Strays</a></p>
-            <hr>
-            <div class="padding">
-                <table class="AdoptTable" style="width: 100%">
-                    <tr>
-                        <td>
-                            <h2>What to Know About SOS:</h2>
-                            <ul>
-                                <li>
-                                    Founded in 2005; celebrating its 10year anniversary in 2015
-                                </li>
-                                <li>
-                                    Mission: SOS is a non-profit, all volunteer organization saving adorable dogs and cats destined for premature euthanasia at local shelters
-                                </li>
-                                <li>
-                                    lives saved to date - 2,868
-                                </li>
-                                <li>
-                                    Events - Dog Walk, Golf Outing, Adoption Meet and Greets, Putt Putt fundraiser 
-                                </li>                                
-                            </ul>
-                        </td>
-                        <td>
-                            <h2>Adoption Fees:</h2>
-                            <ul>
-                                <li>
-                                    Seniors (11 years and up) - $50
-                                </li>
-                                <li>
-                                    Dogs (7 years to 10 years) - $75
-                                </li>
-                                <li>
-                                    Dogs (6 months to 6 years) - $150
-                                </li>
-                                <li>
-                                    Puppies (under 6  months) - $200
-                                </li>
-                                <li>
-                                    Cats (over 6 months) - $65
-                                </li>
-                                <li>
-                                    Kittens (under 6 months) - $85
-                                </li>
-                                <li>
-                                    Bargain on cats - Adopt one and get the second one FREE
-                                </li>
-                                <li>
-                                    To celebrate its 10th anniversary, SOS is charging only $10 for any cat over one year old through the end of 2015
-                                </li>                                
-                            </ul>                       
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h2>Adoption Information:</h2>
-                            <ul>
-                                <li>
-                                    SOS adoptables come from a variety of rescue situations so the organization often has limited, to no, previous information on them
-                                </li>
-                                <li>
-                                    Adoptables are tested and vet checked, up-to-date on shots (as age and time permits), including rabies, and altered before going to their new forever home
-                                </li>
-                                <li>
-                                    All animals receive an average of $250 in vet care and top quality food
-                                </li>                                
-                            </ul>
-                        </td>
-                        <td>
-                            <h2>Contact Information:</h2>
-                            <ul>
-                                <li>
-                                    Phone: 440-567-3585
-                                </li>
-                                <li>
-                                    Email: info@saveohiostrays.org
-                                </li>
-                                <li>
-                                    Website: <a href="http://saveohiostrays.org/">saveohiostarys.org</a>
-                                </li>                                
-                            </ul>                          
-                        </td>
-                    </tr>
-                </table>
+            <hr>   
+            <div class="padding">            
+            <div class="petssection">
+                <article>
+                    <h2>What to Know About SOS:</h2>
+                    <ul>
+                        <li>
+                            Founded in 2005; celebrating its 10year anniversary in 2015
+                        </li>
+                        <li>
+                            Mission: SOS is a non-profit, all volunteer organization saving adorable dogs and cats destined for premature euthanasia at local shelters
+                        </li>
+                        <li>
+                            lives saved to date - 2,868
+                        </li>
+                        <li>
+                            Events - Dog Walk, Golf Outing, Adoption Meet and Greets, Putt Putt fundraiser 
+                        </li>                                
+                    </ul>
+                </article>
+                <article>
+                    <h2>Adoption Fees:</h2>
+                    <ul>
+                        <li>
+                            Seniors (11 years and up) - $50
+                        </li>
+                        <li>
+                            Dogs (7 years to 10 years) - $75
+                        </li>
+                        <li>
+                            Dogs (6 months to 6 years) - $150
+                        </li>
+                        <li>
+                            Puppies (under 6  months) - $200
+                        </li>
+                        <li>
+                            Cats (over 6 months) - $65
+                        </li>
+                        <li>
+                            Kittens (under 6 months) - $85
+                        </li>
+                        <li>
+                            Bargain on cats - Adopt one and get the second one FREE
+                        </li>
+                        <li>
+                            To celebrate its 10th anniversary, SOS is charging only $10 for any cat over one year old through the end of 2015
+                        </li>                                
+                    </ul>
+                </article>
+                <article>
+                    <h2>Adoption Information:</h2>
+                    <ul>
+                        <li>
+                            SOS adoptables come from a variety of rescue situations so the organization often has limited, to no, previous information on them
+                        </li>
+                        <li>
+                            Adoptables are tested and vet checked, up-to-date on shots (as age and time permits), including rabies, and altered before going to their new forever home
+                        </li>
+                        <li>
+                            All animals receive an average of $250 in vet care and top quality food
+                        </li>                                
+                    </ul>                        
+                </article>
+                <article>
+                    <h2>Contact Information:</h2>
+                    <ul>
+                        <li>
+                            Phone: 440-567-3585
+                        </li>
+                        <li>
+                            Email: info@saveohiostrays.org
+                        </li>
+                        <li>
+                            Website: <a href="http://saveohiostrays.org/">saveohiostarys.org</a>
+                        </li>                                
+                    </ul> 
+                </article> 
+            </div>
                 <p>
                     Save Ohio Strays does NOT claim or guarantee any breeds given in this 
                     description  These strays come from shelters, so there is usually no further

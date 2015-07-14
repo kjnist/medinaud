@@ -1,19 +1,19 @@
 <html>
-    <head>
-        <link href="Test.css" rel="stylesheet" type="text/css"/>
-        <title>Medina County Auditor</title>
-        <link rel="shortcut icon" href="Images/AuditorSeal.png" />
-        <meta charset="UTF-8" />
-        <link href='http://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>  
-        <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <script src="JS.js" type="text/javascript"></script>
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
-        <script src="https://apis.google.com/js/platform.js"></script>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-    </head>
+<head>
+    <link href="Test.css" rel="stylesheet" type="text/css"/>
+    <title>Medina County Auditor</title>
+    <link rel="shortcut icon" href="Images/AuditorSeal.png" />
+    <meta charset="UTF-8" />
+    <link href='http://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>  
+    <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="JS.js" type="text/javascript"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</head>
 <body>
        <?php include 'Header.php';?>              
         <div class="BodyContainer" >
@@ -187,7 +187,7 @@
                 </p></div> 
             </section>
             <aside>              
-                <img src="Images/westsidestory.jpg" class="FrontPage">             
+                <img src="Images/westsidestory.png" class="FrontPage">             
             </aside>      
             <section class="right">
                 <div class="BoxAttention" style="padding:5px;">
