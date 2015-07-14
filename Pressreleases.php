@@ -51,7 +51,7 @@
                             July 14, 2014
                         </td>
                         <td class="noborderright">
-                            <a href="">Beware of Treasury Department Hoax</a>
+                            <a href="Press_2014_Fraud.php">Beware of Treasury Department Hoax</a>
                         </td>                        
                     </tr>       
                     <tr>
@@ -59,7 +59,7 @@
                             May 27, 2014
                         </td>
                         <td class="noborderright">
-                            <a href="">Auditor Kovack Awards Three Scholarships</a>
+                            <a href="Press_2014_Scholarships.php">Auditor Kovack Awards Three Scholarships</a>
                         </td>                        
                     </tr>
                     <tr>
@@ -67,7 +67,7 @@
                             May 13, 2014
                         </td>
                         <td class="noborderright">
-                            <a href="">Did Monday's Big Storm Leave Your Property With Damage?</a>
+                            <a href="Press_2014_PropertyDamage.php">Did Monday's Big Storm Leave Your Property With Damage?</a>
                         </td>                        
                     </tr>
                     <tr>
@@ -75,7 +75,7 @@
                            April 14, 2014
                         </td>
                         <td class="noborderright">
-                            <a href="">	Auditor Kovack Announces Memorial Day Essay Contest</a>
+                            <a href="Press_2014_MemorialDay.php">Auditor Kovack Announces Memorial Day Essay Contest</a>
                         </td>                        
                     </tr>
                     <tr>
@@ -83,7 +83,7 @@
                             March 12, 2014
                         </td>
                         <td class="noborderright">
-                            <a href="">Michael E. Kovack, County Auditor Receives Excellence in Financial Reporting Award</a>
+                            <a href="Press_2014_FinancialAward.php">Michael E. Kovack, County Auditor Receives Excellence in Financial Reporting Award</a>
                         </td>                        
                     </tr>   
                     <tr>
@@ -91,7 +91,7 @@
                             January 27, 2014
                         </td>
                         <td class="noborderright">
-                            <a href="">Kovack Announces New Scholarship Opportunity for Brunswick High Students</a>
+                            <a href="Press_2014_NewScholarship.php">Kovack Announces New Scholarship Opportunity for Brunswick High Students</a>
                         </td>                        
                     </tr>
                     <tr>
@@ -99,7 +99,7 @@
                             January 13, 2014
                         </td>
                         <td class="noborderright">
-                            <a href="">Medina County Auditor's Office Scholarship</a>
+                            <a href="Press_2014_Scholarship.php">Medina County Auditor's Office Scholarship</a>
                         </td>                        
                     </tr>
                     <tr>
@@ -107,7 +107,7 @@
                             January 6, 2014	
                         </td>
                         <td class="noborderright">
-                            <a href="">	2013 CAUV Values Are Increasing</a>
+                            <a href="Press_2014_Scholarship.php">2013 CAUV Values Are Increasing</a>
                         </td>                        
                     </tr>
                     <tr>
@@ -115,7 +115,7 @@
                             January 5, 2014
                         </td>
                         <td class="noborderright">
-                            <a href="">Beware of Treasury Department Hoax</a>
+                            <a href="Press_2014_TaxBills.php">Medina County 2014 Tax Bills Posted Online</a>
                         </td>                        
                     </tr>                       
                 </table>

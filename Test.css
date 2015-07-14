@@ -168,6 +168,9 @@ ol{
         width: 100px;
         margin: auto;
     }
+ul{
+    font-family: 'Open Sans', sans-serif;
+}    
 /************************************************/ 
 /********************* Layout *******************/
 /************************************************/ 
@@ -182,6 +185,7 @@ article{
     max-width: 700px;
     margin: auto;
     padding: 50px;
+    padding-top: 10px;
 }
  td{
     width: 25%;
@@ -200,6 +204,12 @@ aside {
     float: left;
     width: 50em;
 }
+.formslist{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 245px;
+}
 .BodyContainer{
     box-shadow: 1px 1px 10px;
     max-width: 88em;
@@ -211,6 +221,7 @@ aside {
     overflow: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    min-height: 465px;
 }
 .PropertyForm{   
     border: 1px solid #282827;
