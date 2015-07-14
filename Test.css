@@ -17,6 +17,7 @@ p{
 }
 a {
     color: #011EA4;
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
 }       
 a:hover{
@@ -75,13 +76,71 @@ table{
 td {
    border: 1px solid black;
 }
-
+.subtitle{
+    text-align: center;
+}
+.padding{
+    padding: 40px;
+    margin-top: 0px;
+}
+.adopt{
+    border: 1px solid #000;
+    border-spacing: 5em;
+    border-radius: 10px;    
+    border-collapse: separate; 
+    border-spacing:0 25px;
+    margin-bottom: 15px; 
+    width: 600px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+}
+    .adopt td{
+        border: 0;
+    }
+.AdoptInfo{
+    width: 80%;
+    padding: 15px;
+}    
+.AdoptPic{
+    text-align: center;
+}
+.AdoptImage{
+    height: 10em;
+}
+.center{
+    text-align: center;
+}
+.doglic{
+    width: 250px;
+    position: static;
+}
+.bold{
+    font-weight: bold;
+}
+.RightInfo{
+    width: 70%;
+    line-height: 150%;
+}
+.AdoptTable{    
+    padding: 10px;
+    width: 100%
+}
+    .AdoptTable h2{
+        text-align: center;
+        float: top;
+    }
+.petattention{
+    font-weight: bold; 
+    text-align: center;
+    color: #000;
+}
 /****************************************************/ 
-/************************Layout ****************/
+/************************Layout *********************/
 /****************************************************/ 
 
  td{
     width: 25%;
+    font-family: 'Open Sans', sans-serif;
 }
 .PageHeader{
     margin: 15px;
@@ -551,6 +610,9 @@ input[type=checkbox]:checked ~ #menu{
         float: left;
         width: 39em;
     }
+    .adopt{
+        width: 510px;
+    } 
 }
 @media screen and (max-width : 1240px){
     .NavBar{   
@@ -596,6 +658,9 @@ input[type=checkbox]:checked ~ #menu{
     .Additional{
         width: 150px;;
     }
+    .adopt{
+        width: 100%;
+    }
 }
 @media screen and (max-width : 970px){
     .NavBar{   
@@ -632,6 +697,12 @@ input[type=checkbox]:checked ~ #menu{
     }
 }
 @media screen and (max-width : 760px){
+    .AdoptImage{
+        height: 9em;
+    }
+    .Adopt{
+        width: 100%;
+    }
     .NewsBox img{
         width: 100%; 
         max-height: 150px;

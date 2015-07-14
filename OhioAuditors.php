@@ -14,7 +14,7 @@
         <div class="BodyContainer" >
             <?php include 'MHeader.php'; ?> 
             <h1 class="PageHeader">Ohio County Auditors' Websites</h1>
-            <p style="text-align: center;">Listed below are links to each of the Ohio County Auditors' websites. </p>
+            <p  class="subtitle">Listed below are links to each of the Ohio County Auditors' websites. </p>
             <hr>
             <table cellpadding="4" cellspacing="3">
                 <tbody>

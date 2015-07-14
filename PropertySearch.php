@@ -16,7 +16,7 @@
         <h1 class="PageHeader">Property Search</h1>
         <hr>        
         <div class="SearchPage">
-            <form action="http://www.medinacountyauditor.org/propsearch_php.php" method="post" name="propsearch" id="propsearch">
+            <form action="propsearch.php" method="post" name="propsearch" id="propsearch">
                 <p style="text-align: right" class="directions" >
                     <i>Enter Last Name</i>
                 </p>

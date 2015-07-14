@@ -187,7 +187,7 @@
                 </p></div> 
             </section>
             <aside>              
-                <img src="Images/Front Page for presentation.png" class="FrontPage">             
+                <img src="Images/westsidestory.jpg" class="FrontPage">             
             </aside>      
             <section class="right">
                 <div class="BoxAttention" style="padding:5px;">
