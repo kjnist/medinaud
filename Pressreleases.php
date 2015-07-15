@@ -35,7 +35,7 @@
                             December 2, 2014
                         </td>
                         <td class="noborderright">
-                            <a href="http://www.medinacountyauditor.org/download/2015TopDog/2015%20Top%20Dog%20Winners%20Press%20Release.pdf">Nelson's Dog, Charlie, is Tops in Medina County!</a>
+                            <a href="download/2015 Top Dog Winners Press Release.pdf">Nelson's Dog, Charlie, is Tops in Medina County!</a>
                         </td>                        
                     </tr>
                     <tr>
